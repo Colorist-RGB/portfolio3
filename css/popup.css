@@ -1,0 +1,19 @@
+@charset "utf-8";
+.pop {
+    width: 591px;
+}
+.pop img { width: 100%; }
+.btn {
+    text-align: center;
+    padding-top: 11px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+.btn button {
+    padding: 5px 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.btn button:hover {
+    background: #ddd;
+}

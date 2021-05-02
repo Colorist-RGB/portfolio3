@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/popup.css">
+    <title>팝업창</title>
+</head>
+<body>
+    <div class="pop">
+        <img src="./img/popup.png" alt="popup">
+        <div class="btn">
+            <input type="checkbox" id="chk"> 하루동안 열지않기
+            <button type="button" onclick="wclose()">닫기</button>
+        </div>
+    </div>
+
+    <script>
+        function wclose(){
+            // chk에 체크가 되면 popupYN이라는 변수가 생성되고 그 value값은 N값이다
+            if(document.getElementById('chk').checked){
+                var date = new Date()
+
+                //date가 +1날짜가 되는것임
+                date.setDate(date.getDate() + 1)
+
+                // 쿠키저장소는 문자로만 저장이 가능하기때문에 변수,숫자 모두 문자로 인코딩해줘야함
+                // popupYN을 이스케이프 함수에 인코딩한 형태로 넣어준것임
+                // 그 value값으로 N을 갖게 하기위해 '='로 연결하는 것임
+                // 그 뒤에 값은 변경해준 시간값을 연결해주는 방식이니 그대로 이해할것
+                // 개발자 항목에 expires 항목이 있는데 그 항목에 다음의 시간을 집어 넣을것을 의미
+                // date 숫자를 .toUTCString() 메소드를 사용해서 문자로 변경해주는것임
+                document.cookie = escape('popupYN')+'='+escape('N')+"; expires="+date.toUTCString();
+            }
+            window.close()
+        }
+    </script>
+</body>
+</html>

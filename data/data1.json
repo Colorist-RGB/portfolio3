@@ -1,0 +1,58 @@
+[
+    {
+        "UnivName" : "서울대",
+        "Count" : "3명"
+    },
+    {
+        "UnivName" : "연세대",
+        "Count" : "4명"
+    },
+    {
+        "UnivName" : "고려대",
+        "Count" : "2명"
+    },
+    {
+        "UnivName" : "서강대",
+        "Count" : "1명"
+    },
+    {
+        "UnivName" : "성균관대",
+        "Count" : "2명"
+    },
+    {
+        "UnivName" : "한양대",
+        "Count" : "2명"
+    },
+    {
+        "UnivName" : "중앙대",
+        "Count" : "3명"
+    },
+    {
+        "UnivName" : "경희대",
+        "Count" : "2명"
+    },
+    {
+        "UnivName" : "한국외국어대",
+        "Count" : "1명"
+    },
+    {
+        "UnivName" : "서울시립대",
+        "Count" : "2명"
+    },
+    {
+        "UnivName" : "건국대",
+        "Count" : "3명"
+    },
+    {
+        "UnivName" : "동국대",
+        "Count" : "4명"
+    },
+    {
+        "UnivName" : "홍익대",
+        "Count" : "5명"
+    },
+    {
+        "UnivName" : "육군사관학교",
+        "Count" : "3명"
+    }
+]
