@@ -412,13 +412,14 @@ header,
 /* 섹션 아티클2 */
 #section #article2 {
     margin: 25px 0;
+    height: 465px;
 }
 
 /* 섹션 아티클2 왼쪽-데이터픽커 */
 #section #article2 .left {
     float: left;
     width: 790px;
-    height: 400px;
+    height: 465px;
     background: #eaebe6;
 }
 
@@ -426,7 +427,7 @@ header,
 #section #article2 .right {
     float: right;
     width: 390px;
-    height: 400px;
+    height: 465px;
     background: #665e5c;
     text-align: center;
     color: #fff;
@@ -445,8 +446,8 @@ header,
 }
 
 #section #article2 .textBox h3 {
-    font-size: 30px;
-    padding-bottom: 14px;
+    font-size: 40px;
+    padding-bottom: 20px;
     position: relative;
     font-weight: 400;
 }
@@ -458,18 +459,18 @@ header,
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: 200px;
+    width: 300px;
     height: 3px;
     background: #f05223;
 }
 
 #section #article2 .textBox p {
-    font-size: 24px;
-    padding-bottom: 10px;
+    font-size: 30px;
+    padding-bottom: 20px;
 }
 
 #section #article2 .textBox h3+p {
-    padding-top: 20px;
+    padding-top: 30px;
 }
 #section #article2 .right .depth1 {
     display: none;
@@ -494,14 +495,14 @@ header,
 }
 #section #article2 .leftBtn {
     position: absolute;
-    top: 71px;
-    left: 75px;
+    top: 53px;
+    left: 60px;
     padding: 1px 2px 0px 0px;
 }
 #section #article2 .rightBtn {
     position: absolute;
-    top: 71px;
-    right: 75px;
+    top: 53px;
+    right: 60px;
     padding: 1px 0px 0px 2px;
 }
 
