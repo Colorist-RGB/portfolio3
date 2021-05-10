@@ -98,7 +98,7 @@ $('.modalClose').on('click', function(e){
     $('#modal').removeClass('on')
 })
 
-// 식단 버튼 제어
+// 상단 버튼 제어
 $('.leftBtn').on('click', function(){
     $('#article2 .right .depth1').addClass('on')
     $('#article2 .right .depth2').removeClass('on')
