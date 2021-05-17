@@ -1,8 +1,19 @@
 @charset "utf-8";
 .pop {
-    width: 591px;
+    width: 590px;
+    position: relative;
 }
-.pop img { width: 100%; }
+.pop .titleBox {
+    width: 100%;
+    padding: 7px 0;
+    color: #fff;
+    background: #1f1e1f;
+    text-align: center;
+}
+.pop img {
+    width: 100%;
+    padding-top: 30px;
+}
 .btn {
     text-align: center;
     padding-top: 11px;
